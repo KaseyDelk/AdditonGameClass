@@ -64,6 +64,8 @@ public class ReworkedAdditionGame {
 ## Console
 All these instances were in the console after I ran my code.
 ```java
+### Test Case 1
+
 What is 8 + 2?
 Please answer in integers only.
 10
@@ -89,6 +91,8 @@ Answer was correct!
 Score is : 10000
 Hardness is now : 100000
 
+###Test Case 2
+
 What is 6 + 5?
 Please answer in integers only.
 12
@@ -112,6 +116,31 @@ Please answer in integers only.
 Answer was correct!
 Score is : 1000
 Hardness is now : 10000
+
+### Test Case 3
+What is 1 + 8?
+Please answer in integers only.
+9
+Answer was correct!
+Score is : 10
+Hardness is now : 100
+What is 29 + 68?
+Please answer in integers only.
+97
+Answer was correct!
+Score is : 100
+Hardness is now : 1000
+What is 65 + 580?
+Please answer in integers only.
+1230
+Answer was not correct.
+The correct answer was: 645
+What is 91 + 52?
+Please answer in integers only.
+143
+Answer was correct!
+Score is : 100
+Hardness is now : 1000
 ```
 ## Commands for github
 Everything under bold in this heading was the command that I typed myself. 
