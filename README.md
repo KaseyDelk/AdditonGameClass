@@ -64,8 +64,6 @@ public class ReworkedAdditionGame {
 ## Console
 All these instances were in the console after I ran my code.
 ```java
-### Test Case 1
-
 What is 8 + 2?
 Please answer in integers only.
 10
@@ -91,7 +89,6 @@ Answer was correct!
 Score is : 10000
 Hardness is now : 100000
 
-###Test Case 2
 
 What is 6 + 5?
 Please answer in integers only.
@@ -117,7 +114,7 @@ Answer was correct!
 Score is : 1000
 Hardness is now : 10000
 
-### Test Case 3
+
 What is 1 + 8?
 Please answer in integers only.
 9
