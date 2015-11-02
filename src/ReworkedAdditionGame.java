@@ -32,7 +32,7 @@ public class ReworkedAdditionGame {
 			//Tell User They Were Right
 			System.out.println("Answer was correct!");
 			//Award Points
-			score = hardness;
+			score += hardness;
 			System.out.println("Score is : " + score);
 			//Increase Difficulty
 			hardness *= 10;	
