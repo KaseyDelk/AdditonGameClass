@@ -64,80 +64,30 @@ public class ReworkedAdditionGame {
 ## Console
 All these instances were in the console after I ran my code.
 ```java
-What is 8 + 2?
+What is 2 + 9?
 Please answer in integers only.
-10
+11
 Answer was correct!
 Score is : 10
 Hardness is now : 100
-What is 40 + 87?
+What is 41 + 53?
 Please answer in integers only.
-127
+94
 Answer was correct!
-Score is : 100
+Score is : 110
 Hardness is now : 1000
-What is 31 + 425?
+What is 587 + 637?
 Please answer in integers only.
-456
+1224
 Answer was correct!
-Score is : 1000
+Score is : 1110
 Hardness is now : 10000
-What is 621 + 2056?
+What is 1439 + 9233?
 Please answer in integers only.
-2677
+10672
 Answer was correct!
-Score is : 10000
+Score is : 11110
 Hardness is now : 100000
-
-
-What is 6 + 5?
-Please answer in integers only.
-12
-Answer was not correct.
-The correct answer was: 11
-What is 5 + 5?
-Please answer in integers only.
-10
-Answer was correct!
-Score is : 10
-Hardness is now : 100
-What is 20 + 52?
-Please answer in integers only.
-72
-Answer was correct!
-Score is : 100
-Hardness is now : 1000
-What is 449 + 332?
-Please answer in integers only.
-781
-Answer was correct!
-Score is : 1000
-Hardness is now : 10000
-
-
-What is 1 + 8?
-Please answer in integers only.
-9
-Answer was correct!
-Score is : 10
-Hardness is now : 100
-What is 29 + 68?
-Please answer in integers only.
-97
-Answer was correct!
-Score is : 100
-Hardness is now : 1000
-What is 65 + 580?
-Please answer in integers only.
-1230
-Answer was not correct.
-The correct answer was: 645
-What is 91 + 52?
-Please answer in integers only.
-143
-Answer was correct!
-Score is : 100
-Hardness is now : 1000
 ```
 ## Commands for github
 Everything under bold in this heading was the command that I typed myself. 
