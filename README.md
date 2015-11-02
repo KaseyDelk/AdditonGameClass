@@ -1,4 +1,6 @@
 # Addition Game
+
+## Summary
 This code is my reworked version of our homework 6 assignment. Our task was to use markdown with the project and fix any mistakes that wer previously had. I leared more on for loops from the internet and they made my life a lot easier when redoing this project.
 
 ## Code
