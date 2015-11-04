@@ -92,8 +92,7 @@ Score is : 11110
 Hardness is now : 100000
 ```
 ## Commands for github
-```Everything under bold in this heading was the command that I typed myself. 
-
+```
 C:\Users\Kasey>d:
 
 D:\>cd KLD_CS1_WorkSpace
