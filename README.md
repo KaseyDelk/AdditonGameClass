@@ -92,15 +92,15 @@ Score is : 11110
 Hardness is now : 100000
 ```
 ## Commands for github
-Everything under bold in this heading was the command that I typed myself. 
+```Everything under bold in this heading was the command that I typed myself. 
 
-**C:\Users\Kasey>d:**
+C:\Users\Kasey>d:
 
-**D:\>cd KLD_CS1_WorkSpace**
+D:\>cd KLD_CS1_WorkSpace
 
-**D:\KLD_CS1_WorkSpace>cd ReworkedAdditionGame**
+D:\KLD_CS1_WorkSpace>cd ReworkedAdditionGame
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>dir**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>dir
  Volume in drive D is KASEY
  Volume Serial Number is 286C-AE8E
 
@@ -115,22 +115,22 @@ Everything under bold in this heading was the command that I typed myself.
                2 File(s)            628 bytes
                4 Dir(s)   7,623,475,200 bytes free
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.name "Kasey Delk"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.name "Kasey Delk"
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email. "delkk@student.swosu.edu"
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email. "delkk@student.swosu.edu"
 error: key does not contain variable name: user.email.**
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email "delkk@student.swosu.edu"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email "delkk@student.swosu.edu"
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status
 fatal: Not a git repository (or any of the parent directories): .git
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git init**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git init
 Initialized empty Git repository in D:/KLD_CS1_WorkSpace/ReworkedAdditionGame/.git/
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "first commit"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "first commit"
 [master (root-commit) 18a12cd] first commit
  4 files changed, 79 insertions(+)
  create mode 100644 .classpath
@@ -138,11 +138,11 @@ Initialized empty Git repository in D:/KLD_CS1_WorkSpace/ReworkedAdditionGame/.g
  create mode 100644 bin/ReworkedAdditionGame.class
  create mode 100644 src/ReworkedAdditionGame.java
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git remote add origin https://github.com/KaseyDelk/AdditonGameClass.git**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git remote add origin https://github.com/KaseyDelk/AdditonGameClass.git
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push -u origin master**
-**Username for 'https://github.com': KaseyDelk**
-**Password for 'https://KaseyDelk@github.com':**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push -u origin master
+Username for 'https://github.com': KaseyDelk
+Password for 'https://KaseyDelk@github.com':
 Counting objects: 8, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (8/8), done.
@@ -152,19 +152,19 @@ To https://github.com/KaseyDelk/AdditonGameClass.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "Added read me file to repository on github"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "Added read me file to repository on github"
 [master 4f3ef72] Added read me file to repository on github
  1 file changed, 119 insertions(+)
  create mode 100644 README.md
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push
 warning: push.default is unset; its implicit value has changed in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the traditional behavior, use:
@@ -186,8 +186,8 @@ See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
 
-**Username for 'https://github.com': KaseyDelk**
-**Password for 'https://KaseyDelk@github.com':**
+Username for 'https://github.com': KaseyDelk
+Password for 'https://KaseyDelk@github.com':
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
@@ -197,6 +197,7 @@ To https://github.com/KaseyDelk/AdditonGameClass.git
    18a12cd..4f3ef72  master -> master
 
 D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>
+```
 
 ## Summary
 I'm really glad that we got a chance to redo this project because I knew mine wasn't right the firs time that I did it. I spent a lot of my time redoing this project trying to understand for loops; once I understood them, my code-writing life got a lot easier.
