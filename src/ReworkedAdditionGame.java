@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class ReworkedAdditionGame {
 	public static void main(String[] args) {
 				
+		System.out.println("Hellow Mommy!");
+		
 		//Declare variables
 		int score = 0;
 		int hardness = 10;
