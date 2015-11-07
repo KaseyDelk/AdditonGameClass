@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class ReworkedAdditionGame {
 	public static void main(String[] args) {
-				
+		
 		//Declare variables
 		int score = 0;
 		int hardness = 10;
