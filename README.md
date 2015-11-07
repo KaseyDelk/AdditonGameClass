@@ -1,4 +1,6 @@
-# Addition Game
+# Homework 6 - Addition Game
+
+## Intro
 This code is my reworked version of our homework 6 assignment. Our task was to use markdown with the project and fix any mistakes that wer previously had. I leared more on for loops from the internet and they made my life a lot easier when redoing this project.
 
 ## Code
@@ -37,7 +39,7 @@ public class ReworkedAdditionGame {
 			//Tell User They Were Right
 			System.out.println("Answer was correct!");
 			//Award Points
-			score = hardness;
+			score += hardness;
 			System.out.println("Score is : " + score);
 			//Increase Difficulty
 			hardness *= 10;	
@@ -64,91 +66,40 @@ public class ReworkedAdditionGame {
 ## Console
 All these instances were in the console after I ran my code.
 ```java
-What is 8 + 2?
+What is 2 + 9?
 Please answer in integers only.
-10
+11
 Answer was correct!
 Score is : 10
 Hardness is now : 100
-What is 40 + 87?
+What is 41 + 53?
 Please answer in integers only.
-127
+94
 Answer was correct!
-Score is : 100
+Score is : 110
 Hardness is now : 1000
-What is 31 + 425?
+What is 587 + 637?
 Please answer in integers only.
-456
+1224
 Answer was correct!
-Score is : 1000
+Score is : 1110
 Hardness is now : 10000
-What is 621 + 2056?
+What is 1439 + 9233?
 Please answer in integers only.
-2677
+10672
 Answer was correct!
-Score is : 10000
+Score is : 11110
 Hardness is now : 100000
-
-
-What is 6 + 5?
-Please answer in integers only.
-12
-Answer was not correct.
-The correct answer was: 11
-What is 5 + 5?
-Please answer in integers only.
-10
-Answer was correct!
-Score is : 10
-Hardness is now : 100
-What is 20 + 52?
-Please answer in integers only.
-72
-Answer was correct!
-Score is : 100
-Hardness is now : 1000
-What is 449 + 332?
-Please answer in integers only.
-781
-Answer was correct!
-Score is : 1000
-Hardness is now : 10000
-
-
-What is 1 + 8?
-Please answer in integers only.
-9
-Answer was correct!
-Score is : 10
-Hardness is now : 100
-What is 29 + 68?
-Please answer in integers only.
-97
-Answer was correct!
-Score is : 100
-Hardness is now : 1000
-What is 65 + 580?
-Please answer in integers only.
-1230
-Answer was not correct.
-The correct answer was: 645
-What is 91 + 52?
-Please answer in integers only.
-143
-Answer was correct!
-Score is : 100
-Hardness is now : 1000
 ```
 ## Commands for github
-Everything under bold in this heading was the command that I typed myself. 
+```
+C:\Users\Kasey>d:
 
-**C:\Users\Kasey>d:**
+D:\>cd KLD_CS1_WorkSpace
 
-**D:\>cd KLD_CS1_WorkSpace**
+D:\KLD_CS1_WorkSpace>cd ReworkedAdditionGame
 
-**D:\KLD_CS1_WorkSpace>cd ReworkedAdditionGame**
-
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>dir**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>dir
  Volume in drive D is KASEY
  Volume Serial Number is 286C-AE8E
 
@@ -163,22 +114,22 @@ Everything under bold in this heading was the command that I typed myself.
                2 File(s)            628 bytes
                4 Dir(s)   7,623,475,200 bytes free
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.name "Kasey Delk"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.name "Kasey Delk"
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email. "delkk@student.swosu.edu"
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email. "delkk@student.swosu.edu"
 error: key does not contain variable name: user.email.**
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email "delkk@student.swosu.edu"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git config user.email "delkk@student.swosu.edu"
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status
 fatal: Not a git repository (or any of the parent directories): .git
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git init**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git init
 Initialized empty Git repository in D:/KLD_CS1_WorkSpace/ReworkedAdditionGame/.git/
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "first commit"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "first commit"
 [master (root-commit) 18a12cd] first commit
  4 files changed, 79 insertions(+)
  create mode 100644 .classpath
@@ -186,11 +137,11 @@ Initialized empty Git repository in D:/KLD_CS1_WorkSpace/ReworkedAdditionGame/.g
  create mode 100644 bin/ReworkedAdditionGame.class
  create mode 100644 src/ReworkedAdditionGame.java
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git remote add origin https://github.com/KaseyDelk/AdditonGameClass.git**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git remote add origin https://github.com/KaseyDelk/AdditonGameClass.git
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push -u origin master**
-**Username for 'https://github.com': KaseyDelk**
-**Password for 'https://KaseyDelk@github.com':**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push -u origin master
+Username for 'https://github.com': KaseyDelk
+Password for 'https://KaseyDelk@github.com':
 Counting objects: 8, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (8/8), done.
@@ -200,19 +151,19 @@ To https://github.com/KaseyDelk/AdditonGameClass.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git add .
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "Added read me file to repository on github"**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git commit -m "Added read me file to repository on github"
 [master 4f3ef72] Added read me file to repository on github
  1 file changed, 119 insertions(+)
  create mode 100644 README.md
 
-**D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push**
+D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>git push
 warning: push.default is unset; its implicit value has changed in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the traditional behavior, use:
@@ -234,8 +185,8 @@ See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
 
-**Username for 'https://github.com': KaseyDelk**
-**Password for 'https://KaseyDelk@github.com':**
+Username for 'https://github.com': KaseyDelk
+Password for 'https://KaseyDelk@github.com':
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
@@ -245,6 +196,7 @@ To https://github.com/KaseyDelk/AdditonGameClass.git
    18a12cd..4f3ef72  master -> master
 
 D:\KLD_CS1_WorkSpace\ReworkedAdditionGame>
+```
 
 ## Summary
 I'm really glad that we got a chance to redo this project because I knew mine wasn't right the firs time that I did it. I spent a lot of my time redoing this project trying to understand for loops; once I understood them, my code-writing life got a lot easier.
